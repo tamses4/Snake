@@ -1,0 +1,12 @@
+﻿<Window x:Class="Snake.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Jeu du Serpent" Height="450" Width="400">
+    <Grid>
+        <Canvas Name="GameCanvas" Background="Black" Margin="10,50,10,10"/>
+        <TextBlock Name="ScoreLabel" FontSize="16" Foreground="White" 
+                   HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="BestScoreLabel" FontSize="16" Foreground="Yellow"
+                   HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
